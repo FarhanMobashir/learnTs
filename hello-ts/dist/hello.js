@@ -20,5 +20,9 @@ async function addNumbers(a, b) {
 exports.addNumbers = addNumbers;
 //== Run the program ==//
 (async () => {
-    console.log(await addNumbers(3, 4));
+    console.log(await addNumbers(3, 4), "again", await addNumbers(a, man));
 })();
+// variables
+const a = "bello";
+let arr = 9;
+const man = 9;
